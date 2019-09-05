@@ -183,8 +183,8 @@ namespace UltraRareMaker
 
         private void ApplyButton_Click(object sender, EventArgs e)
         {
+            _ = DoApply();
             ApplyButton.Enabled = false;
-            DoApply();
         }
 
         private void LoadProfileButton_Click(object sender, EventArgs e)
