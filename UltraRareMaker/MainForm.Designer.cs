@@ -144,6 +144,7 @@
             this.templatePathBrowseButton.TabIndex = 9;
             this.templatePathBrowseButton.Text = "Browse";
             this.templatePathBrowseButton.UseVisualStyleBackColor = true;
+            this.templatePathBrowseButton.Click += new System.EventHandler(this.TemplatePathBrowseButton_Click);
             // 
             // templatePathTextBox
             // 

@@ -216,5 +216,19 @@ namespace UltraRareMaker
                 MessageBox.Show("Last applied profile not found", "Error");
             }
         }
+
+        private void TemplatePathBrowseButton_Click(object sender, EventArgs e)
+        {
+            var ofd = new OpenFileDialog();
+            ofd.Filter = "PNG Image|*.png";
+            ofd.Title = "Load template background image";
+            ofd.DefaultExt = "png";
+            ofd.ShowDialog();
+
+            if (!string.IsNullOrWhiteSpace(ofd.FileName))
+            {
+                templatePathTextBox.Text = ofd.FileName;
+            }
+        }
     }
 }
