@@ -167,12 +167,24 @@ namespace UltraRareMaker
                 }
             });
             SaveProfile(LAST_PROFILE);
+            Action func = () => {
+                ApplyButton.Enabled = true;
+            };
+            if (InvokeRequired)
+            {
+                Invoke(func);
+            }
+            else
+            {
+                func();
+            }
             MessageBox.Show("Done!");
         }
 
         private void ApplyButton_Click(object sender, EventArgs e)
         {
-            _ = DoApply();
+            ApplyButton.Enabled = false;
+            DoApply();
         }
 
         private void LoadProfileButton_Click(object sender, EventArgs e)
