@@ -20,6 +20,7 @@ namespace UltraRareMaker
 
             var background =  backgroundPath.Equals(lastBackgroundPath) ? lastBackground : Image.FromFile(backgroundPath);
             lastBackground = background;
+            lastBackgroundPath = backgroundPath;
             var perk = Image.FromFile(perkPath);
             Image result = new Bitmap(background.Width, background.Height);
             using (var graphic = Graphics.FromImage(result))
