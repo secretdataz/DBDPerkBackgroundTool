@@ -1,0 +1,510 @@
+﻿[
+  {
+    "PerkName": "adrenaline",
+    "DisplayName": "Adrenaline"
+  },
+  {
+    "PerkName": "agitation",
+    "DisplayName": "Agitation"
+  },
+  {
+    "PerkName": "aNursesCalling",
+    "DisplayName": "A Nurse's Calling"
+  },
+  {
+    "PerkName": "balancedLanding",
+    "DisplayName": "Balanced Landing"
+  },
+  {
+    "PerkName": "bitterMurmur",
+    "DisplayName": "Bitter Murmur"
+  },
+  {
+    "PerkName": "bloodhound",
+    "DisplayName": "Bloodhound"
+  },
+  {
+    "PerkName": "bond",
+    "DisplayName": "Bond"
+  },
+  {
+    "PerkName": "botanyKnowledge",
+    "DisplayName": "Botany Knowledge"
+  },
+  {
+    "PerkName": "brutalStrength",
+    "DisplayName": "Brutal Strength"
+  },
+  {
+    "PerkName": "calmSpirit",
+    "DisplayName": "Calm Spirit"
+  },
+  {
+    "PerkName": "darkSense",
+    "DisplayName": "Dark Sense"
+  },
+  {
+    "PerkName": "deerstalker",
+    "DisplayName": "Deerstalker"
+  },
+  {
+    "PerkName": "dejaVu",
+    "DisplayName": "Deja Vu"
+  },
+  {
+    "PerkName": "distressing",
+    "DisplayName": "Distressing"
+  },
+  {
+    "PerkName": "empathy",
+    "DisplayName": "Empathy"
+  },
+  {
+    "PerkName": "enduring",
+    "DisplayName": "Enduring"
+  },
+  {
+    "PerkName": "hope",
+    "DisplayName": "Hope"
+  },
+  {
+    "PerkName": "insidious",
+    "DisplayName": "Insidious"
+  },
+  {
+    "PerkName": "ironGrasp",
+    "DisplayName": "Iron Grasp"
+  },
+  {
+    "PerkName": "ironWill",
+    "DisplayName": "Iron Will"
+  },
+  {
+    "PerkName": "kindred",
+    "DisplayName": "Kindred"
+  },
+  {
+    "PerkName": "leader",
+    "DisplayName": "Leader"
+  },
+  {
+    "PerkName": "lightborn",
+    "DisplayName": "Lightborn"
+  },
+  {
+    "PerkName": "lightweight",
+    "DisplayName": "Lightweight"
+  },
+  {
+    "PerkName": "monstrousShrine",
+    "DisplayName": "Monstrous Shrine"
+  },
+  {
+    "PerkName": "noOneEscapesDeath",
+    "DisplayName": "Hex: No One Escapes Death"
+  },
+  {
+    "PerkName": "noOneLeftBehind",
+    "DisplayName": "No One Left Behind"
+  },
+  {
+    "PerkName": "plunderersInstinct",
+    "DisplayName": "Plunderer's Instinct"
+  },
+  {
+    "PerkName": "predator",
+    "DisplayName": "Predator"
+  },
+  {
+    "PerkName": "premonition",
+    "DisplayName": "Premonition"
+  },
+  {
+    "PerkName": "proveThyself",
+    "DisplayName": "Prove Thyself"
+  },
+  {
+    "PerkName": "quickAndQuiet",
+    "DisplayName": "Quick And Quiet"
+  },
+  {
+    "PerkName": "resilience",
+    "DisplayName": "Resilience"
+  },
+  {
+    "PerkName": "saboteur",
+    "DisplayName": "Saboteur"
+  },
+  {
+    "PerkName": "selfCare",
+    "DisplayName": "Self Care"
+  },
+  {
+    "PerkName": "shadowborn",
+    "DisplayName": "Shadowborn"
+  },
+  {
+    "PerkName": "slipperyMeat",
+    "DisplayName": "Slippery Meat"
+  },
+  {
+    "PerkName": "sloppyButcher",
+    "DisplayName": "Sloppy Butcher"
+  },
+  {
+    "PerkName": "smallGame",
+    "DisplayName": "Small Game"
+  },
+  {
+    "PerkName": "spiesFromTheShadows",
+    "DisplayName": "Spies From The Shadows"
+  },
+  {
+    "PerkName": "spineChill",
+    "DisplayName": "Spine Chill"
+  },
+  {
+    "PerkName": "sprintBurst",
+    "DisplayName": "Sprint Burst"
+  },
+  {
+    "PerkName": "streetwise",
+    "DisplayName": "Streetwise"
+  },
+  {
+    "PerkName": "stridor",
+    "DisplayName": "Stridor"
+  },
+  {
+    "PerkName": "thatanophobia",
+    "DisplayName": "Thatanophobia"
+  },
+  {
+    "PerkName": "thisIsNotHappening",
+    "DisplayName": "This Is Not Happening"
+  },
+  {
+    "PerkName": "tinkerer",
+    "DisplayName": "Tinkerer"
+  },
+  {
+    "PerkName": "toughRunner",
+    "DisplayName": "Tough Runner"
+  },
+  {
+    "PerkName": "underperform",
+    "DisplayName": "Underperform"
+  },
+  {
+    "PerkName": "unnervingPresence",
+    "DisplayName": "Unnerving Presence"
+  },
+  {
+    "PerkName": "unrelenting",
+    "DisplayName": "Unrelenting"
+  },
+  {
+    "PerkName": "urbanEvasion",
+    "DisplayName": "Urban Evasion"
+  },
+  {
+    "PerkName": "wellMakeIt",
+    "DisplayName": "We'll Make It"
+  },
+  {
+    "PerkName": "whispers",
+    "DisplayName": "Whispers"
+  },
+  {
+    "PerkName": "decisiveStrike",
+    "DisplayName": "Decisive Strike"
+  },
+  {
+    "PerkName": "dyingLight",
+    "DisplayName": "Dying Light"
+  },
+  {
+    "PerkName": "objectOfObsession",
+    "DisplayName": "Object Of Obsession"
+  },
+  {
+    "PerkName": "playWithYourFood",
+    "DisplayName": "Play With Your Food"
+  },
+  {
+    "PerkName": "saveTheBestForLast",
+    "DisplayName": "Save The Best For Last"
+  },
+  {
+    "PerkName": "soleSurvivor",
+    "DisplayName": "Sole Survivor"
+  },
+  {
+    "PerkName": "aceInTheHole",
+    "DisplayName": "Ace In The Hole"
+  },
+  {
+    "PerkName": "devourHope",
+    "DisplayName": "Devour Hope"
+  },
+  {
+    "PerkName": "openHanded",
+    "DisplayName": "Open Handed"
+  },
+  {
+    "PerkName": "ruin",
+    "DisplayName": "Hex: Ruin"
+  },
+  {
+    "PerkName": "theThirdSeal",
+    "DisplayName": "Hex: The Third Seal"
+  },
+  {
+    "PerkName": "thrillOfTheHunt",
+    "DisplayName": "Hex: Thrill Of The Hunt"
+  },
+  {
+    "PerkName": "upTheAnte",
+    "DisplayName": "Up The Ante"
+  },
+  {
+    "PerkName": "borrowedTime",
+    "DisplayName": "Borrowed Time"
+  },
+  {
+    "PerkName": "leftBehind",
+    "DisplayName": "Left Behind"
+  },
+  {
+    "PerkName": "unbreakable",
+    "DisplayName": "Unbreakable"
+  },
+  {
+    "PerkName": "alert",
+    "DisplayName": "Alert"
+  },
+  {
+    "PerkName": "generatorOvercharge",
+    "DisplayName": "Overcharge"
+  },
+  {
+    "PerkName": "lithe",
+    "DisplayName": "Lithe"
+  },
+  {
+    "PerkName": "monitorAndAbuse",
+    "DisplayName": "Monitor And Abuse"
+  },
+  {
+    "PerkName": "overwhelmingPresence",
+    "DisplayName": "Overwhelming Presence"
+  },
+  {
+    "PerkName": "technician",
+    "DisplayName": "Technician"
+  },
+  {
+    "PerkName": "BeastOfPrey",
+    "DisplayName": "Beast Of Prey"
+  },
+  {
+    "PerkName": "DeadHard",
+    "DisplayName": "Dead Hard"
+  },
+  {
+    "PerkName": "HuntressLullaby",
+    "DisplayName": "Hex: Huntress Lullaby"
+  },
+  {
+    "PerkName": "NoMither",
+    "DisplayName": "No Mither"
+  },
+  {
+    "PerkName": "TerritorialImperative",
+    "DisplayName": "Territorial Imperative"
+  },
+  {
+    "PerkName": "WereGonnaLiveForever",
+    "DisplayName": "We're Gonna Live Forever"
+  },
+  {
+    "PerkName": "BBQAndChili",
+    "DisplayName": "BBQ And Chili"
+  },
+  {
+    "PerkName": "frankinsLoss",
+    "DisplayName": "Frankin's Demise"
+  },
+  {
+    "PerkName": "knockOut",
+    "DisplayName": "Knock Out"
+  },
+  {
+    "PerkName": "bloodWarden",
+    "DisplayName": "Blood Warden"
+  },
+  {
+    "PerkName": "fireUp",
+    "DisplayName": "Fire Up"
+  },
+  {
+    "PerkName": "pharmacy",
+    "DisplayName": "Pharmacy"
+  },
+  {
+    "PerkName": "rememberMe",
+    "DisplayName": "Remember Me"
+  },
+  {
+    "PerkName": "vigil",
+    "DisplayName": "Vigil"
+  },
+  {
+    "PerkName": "wakeUp",
+    "DisplayName": "Wake Up"
+  },
+  {
+    "PerkName": "detectivesHunch",
+    "DisplayName": "Detective's Hunch"
+  },
+  {
+    "PerkName": "hangmansTrick",
+    "DisplayName": "Hangman'sTrick"
+  },
+  {
+    "PerkName": "makeYourChoice",
+    "DisplayName": "Make Your Choice"
+  },
+  {
+    "PerkName": "stakeOut",
+    "DisplayName": "Stake Out"
+  },
+  {
+    "PerkName": "surveillance",
+    "DisplayName": "Surveillance"
+  },
+  {
+    "PerkName": "tenacity",
+    "DisplayName": "Tenacity"
+  },
+  {
+    "PerkName": "bamboozle",
+    "DisplayName": "Bamboozle"
+  },
+  {
+    "PerkName": "coulrophobia",
+    "DisplayName": "Coulrophobia"
+  },
+  {
+    "PerkName": "popGoesTheWeasel",
+    "DisplayName": "Pop Goes The Weasel"
+  },
+  {
+    "PerkName": "boilOver",
+    "DisplayName": "Boil Over"
+  },
+  {
+    "PerkName": "danceWithMe",
+    "DisplayName": "Dance With Me"
+  },
+  {
+    "PerkName": "windowsOfOpportunity",
+    "DisplayName": "Windows Of Opportunity"
+  },
+  {
+    "PerkName": "autodidact",
+    "DisplayName": "Autodidact"
+  },
+  {
+    "PerkName": "deliverance",
+    "DisplayName": "Deliverance"
+  },
+  {
+    "PerkName": "diversion",
+    "DisplayName": "Diversion"
+  },
+  {
+    "PerkName": "hatred",
+    "DisplayName": "Rancor"
+  },
+  {
+    "PerkName": "hauntedGround",
+    "DisplayName": "Hex: HauntedGround"
+  },
+  {
+    "PerkName": "spiritFury",
+    "DisplayName": "Spirit Fury"
+  },
+  {
+    "PerkName": "aftercare",
+    "DisplayName": "Aftercare"
+  },
+  {
+    "PerkName": "breakdown",
+    "DisplayName": "Breakdown"
+  },
+  {
+    "PerkName": "discordance",
+    "DisplayName": "Discordance"
+  },
+  {
+    "PerkName": "distortion",
+    "DisplayName": "Distortion"
+  },
+  {
+    "PerkName": "ironMaiden",
+    "DisplayName": "Iron Maiden"
+  },
+  {
+    "PerkName": "madGrit",
+    "DisplayName": "Mad Grit"
+  },
+  {
+    "PerkName": "corruptIntervention",
+    "DisplayName": "Corrupt Intervention"
+  },
+  {
+    "PerkName": "darkDevotion",
+    "DisplayName": "Dark Devotion"
+  },
+  {
+    "PerkName": "headOn",
+    "DisplayName": "Head On"
+  },
+  {
+    "PerkName": "infectiousFright",
+    "DisplayName": "Infectious Fright"
+  },
+  {
+    "PerkName": "poised",
+    "DisplayName": "Poised"
+  },
+  {
+    "PerkName": "solidarity",
+    "DisplayName": "Solidarity"
+  },
+  {
+    "PerkName": "buckleUp",
+    "DisplayName": "Buckle Up"
+  },
+  {
+    "PerkName": "flipFlop",
+    "DisplayName": "Flip Flop"
+  },
+  {
+    "PerkName": "mettleOfMan",
+    "DisplayName": "Mettle Of Man"
+  },
+  {
+    "PerkName": "furtiveChase",
+    "DisplayName": "Furtive Chase"
+  },
+  {
+    "PerkName": "imAllEars",
+    "DisplayName": "I'm All Ears"
+  },
+  {
+    "PerkName": "thrillingTremors",
+    "DisplayName": "Thrilling Tremors"
+  }
+]

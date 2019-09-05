@@ -1,0 +1,249 @@
+﻿[
+  {
+    "Path": ".",
+    "DisplayName": "Base game & Last Breath",
+    "Number": 0,
+    "Perks": [
+      "adrenaline",
+      "agitation",
+      "aNursesCalling",
+      "balancedLanding",
+      "bitterMurmur",
+      "bloodhound",
+      "bond",
+      "botanyKnowledge",
+      "brutalStrength",
+      "calmSpirit",
+      "darkSense",
+      "deerstalker",
+      "dejaVu",
+      "distressing",
+      "empathy",
+      "enduring",
+      "hope",
+      "insidious",
+      "ironGrasp",
+      "ironWill",
+      "kindred",
+      "leader",
+      "lightborn",
+      "lightweight",
+      "monstrousShrine",
+      "noOneEscapesDeath",
+      "noOneLeftBehind",
+      "plunderersInstinct",
+      "predator",
+      "premonition",
+      "proveThyself",
+      "quickAndQuiet",
+      "resilience",
+      "saboteur",
+      "selfCare",
+      "shadowborn",
+      "slipperyMeat",
+      "sloppyButcher",
+      "smallGame",
+      "spiesFromTheShadows",
+      "spineChill",
+      "sprintBurst",
+      "streetwise",
+      "stridor",
+      "thatanophobia",
+      "thisIsNotHappening",
+      "tinkerer",
+      "toughRunner",
+      "underperform",
+      "unnervingPresence",
+      "unrelenting",
+      "urbanEvasion",
+      "wellMakeIt",
+      "whispers"
+    ]
+  },
+  {
+    "Path": "DLC2",
+    "DisplayName": "Halloween®",
+    "Number": 1,
+    "Perks": [
+      "decisiveStrike",
+      "dyingLight",
+      "objectOfObsession",
+      "playWithYourFood",
+      "saveTheBestForLast",
+      "soleSurvivor"
+    ]
+  },
+  {
+    "Path": "DLC3",
+    "DisplayName": "Of Flesh and Mud",
+    "Number": 2,
+    "Perks": [
+      "aceInTheHole",
+      "devourHope",
+      "openHanded",
+      "ruin",
+      "theThirdSeal",
+      "thrillOfTheHunt",
+      "upTheAnte"
+    ]
+  },
+  {
+    "Path": "L4D",
+    "DisplayName": "Left Behind",
+    "Number": 3,
+    "Perks": [
+      "borrowedTime",
+      "leftBehind",
+      "unbreakable"
+    ]
+  },
+  {
+    "Path": "DLC4",
+    "DisplayName": "Spark of Madness",
+    "Number": 4,
+    "Perks": [
+      "alert",
+      "generatorOvercharge",
+      "lithe",
+      "monitorAndAbuse",
+      "overwhelmingPresence",
+      "technician"
+    ]
+  },
+  {
+    "Path": "DLC5",
+    "DisplayName": "A Lullaby For The Dark",
+    "Number": 5,
+    "Perks": [
+      "BeastOfPrey",
+      "DeadHard",
+      "HuntressLullaby",
+      "NoMither",
+      "TerritorialImperative",
+      "WereGonnaLiveForever"
+    ]
+  },
+  {
+    "Path": "Cannibal",
+    "DisplayName": "Leatherface™",
+    "Number": 6,
+    "Perks": [
+      "BBQAndChili",
+      "frankinsLoss",
+      "knockOut"
+    ]
+  },
+  {
+    "Path": "England",
+    "DisplayName": "Nightmare on Elm Street™",
+    "Number": 7,
+    "Perks": [
+      "bloodWarden",
+      "fireUp",
+      "pharmacy",
+      "rememberMe",
+      "vigil",
+      "wakeUp"
+    ]
+  },
+  {
+    "Path": "Finland",
+    "DisplayName": "Saw®",
+    "Number": 8,
+    "Perks": [
+      "detectivesHunch",
+      "hangmansTrick",
+      "makeYourChoice",
+      "stakeOut",
+      "surveillance",
+      "tenacity"
+    ]
+  },
+  {
+    "Path": "Guam",
+    "DisplayName": "Curtain Call",
+    "Number": 9,
+    "Perks": [
+      "bamboozle",
+      "coulrophobia",
+      "popGoesTheWeasel"
+    ]
+  },
+  {
+    "Path": "Kate",
+    "DisplayName": "Curtain Call",
+    "Number": 10,
+    "Perks": [
+      "boilOver",
+      "danceWithMe",
+      "windowsOfOpportunity"
+    ]
+  },
+  {
+    "Path": "Haiti",
+    "DisplayName": "Shattered Bloodline",
+    "Number": 11,
+    "Perks": [
+      "autodidact",
+      "deliverance",
+      "diversion",
+      "hatred",
+      "hauntedGround",
+      "spiritFury"
+    ]
+  },
+  {
+    "Path": "Kenya",
+    "DisplayName": "Darkness Among Us",
+    "Number": 12,
+    "Perks": [
+      "aftercare",
+      "breakdown",
+      "discordance",
+      "distortion",
+      "ironMaiden",
+      "madGrit"
+    ]
+  },
+  {
+    "Path": "Mali",
+    "DisplayName": "Demise of the Faithful",
+    "Number": 13,
+    "Perks": [
+      "corruptIntervention",
+      "darkDevotion",
+      "headOn",
+      "infectiousFright",
+      "poised",
+      "solidarity"
+    ]
+  },
+  {
+    "Path": "Ash",
+    "DisplayName": "Ash vs Evil Dead",
+    "Number": 14,
+    "Perks": [
+      "buckleUp",
+      "flipFlop",
+      "mettleOfMan"
+    ]
+  },
+  {
+    "Path": "Oman",
+    "DisplayName": "Ghostface®",
+    "Number": 15,
+    "Perks": [
+      "furtiveChase",
+      "imAllEars",
+      "thrillingTremors"
+    ]
+  },
+  {
+    "Path": "Qatar",
+    "DisplayName": "STRANGER THINGS",
+    "Number": 16,
+    "Perks": [
+      "WIP"
+    ]
+  }
+]
