@@ -153,30 +153,30 @@ namespace UltraRareMaker
                 {
                     ImageUtil.OverlayPerk(templatePathTextBox.Text, Path.Combine(_PerksPath, perk.DlcName, $"iconPerks_{perk.PerkName}.png"));
                     processed++;
-                    Action func = () => {
+                    Action progressBarUpdate = () => {
                         ProgressLabel.Text = $"Progress {processed}/{count}";
                         progressBar1.Value = processed / count * 100;
                     };
                     if (InvokeRequired)
                     {
-                        Invoke(func);
+                        Invoke(progressBarUpdate);
                     } else
                     {
-                        func();
+                        progressBarUpdate();
                     }
                 }
             });
             SaveProfile(LAST_PROFILE);
-            Action func = () => {
+            Action enableButton = () => {
                 ApplyButton.Enabled = true;
             };
             if (InvokeRequired)
             {
-                Invoke(func);
+                Invoke(enableButton);
             }
             else
             {
-                func();
+                enableButton();
             }
             MessageBox.Show("Done!");
         }
