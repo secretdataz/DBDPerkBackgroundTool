@@ -200,6 +200,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dbdPathBrowseButton);
             this.Controls.Add(this.DbdPathTextBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.Text = "UltraRareMaker";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
