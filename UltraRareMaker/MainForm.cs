@@ -15,10 +15,10 @@ namespace UltraRareMaker
     // Yes, this is a "god" class. Refactor later if a huge improvement is needed.
     public partial class MainForm : Form
     {
-        private static string PROFILE_DIR = Path.Combine(Directory.GetCurrentDirectory(), "profiles");
-        private static string LAST_PROFILE = Path.Combine(PROFILE_DIR, "__LASTPROFILE.json");
+        private static readonly string PROFILE_DIR = Path.Combine(Directory.GetCurrentDirectory(), "profiles");
+        private static readonly string LAST_PROFILE = Path.Combine(PROFILE_DIR, "__LASTPROFILE.json");
         private List<Perk> _Perks = new List<Perk>();
-        private List<Chapter> _Chapters;
+        private readonly List<Chapter> _Chapters;
         private string _DbdPath = "";
         private string _PerksPath = "";
 
@@ -177,31 +177,39 @@ namespace UltraRareMaker
 
         private void LoadProfileButton_Click(object sender, EventArgs e)
         {
-            var ofd = new OpenFileDialog();
-            ofd.InitialDirectory = PROFILE_DIR;
-            ofd.Filter = "JSON File|*.json";
-            ofd.Title = "Load profile";
-            ofd.DefaultExt = "json";
-            ofd.ShowDialog();
-
-            if (!string.IsNullOrWhiteSpace(ofd.FileName))
+            using (var ofd = new OpenFileDialog
             {
-                LoadProfile(ofd.FileName);
+                InitialDirectory = PROFILE_DIR,
+                Filter = "JSON File|*.json",
+                Title = "Load profile",
+                DefaultExt = "json"
+            })
+            {
+                ofd.ShowDialog();
+
+                if (!string.IsNullOrWhiteSpace(ofd.FileName))
+                {
+                    LoadProfile(ofd.FileName);
+                }
             }
         }
 
         private void SaveProfileButton_Click(object sender, EventArgs e)
         {
-            var sfd = new SaveFileDialog();
-            sfd.InitialDirectory = PROFILE_DIR;
-            sfd.Filter = "JSON File|*.json";
-            sfd.Title = "Save profile";
-            sfd.DefaultExt = "json";
-            sfd.ShowDialog();
-
-            if (!string.IsNullOrWhiteSpace(sfd.FileName))
+            using (var sfd = new SaveFileDialog
             {
-                SaveProfile(sfd.FileName);
+                InitialDirectory = PROFILE_DIR,
+                Filter = "JSON File|*.json",
+                Title = "Save profile",
+                DefaultExt = "json"
+            })
+            {
+                sfd.ShowDialog();
+
+                if (!string.IsNullOrWhiteSpace(sfd.FileName))
+                {
+                    SaveProfile(sfd.FileName);
+                }
             }
         }
 
@@ -219,15 +227,19 @@ namespace UltraRareMaker
 
         private void TemplatePathBrowseButton_Click(object sender, EventArgs e)
         {
-            var ofd = new OpenFileDialog();
-            ofd.Filter = "PNG Image|*.png";
-            ofd.Title = "Load template background image";
-            ofd.DefaultExt = "png";
-            ofd.ShowDialog();
-
-            if (!string.IsNullOrWhiteSpace(ofd.FileName))
+            using (var ofd = new OpenFileDialog
             {
-                templatePathTextBox.Text = ofd.FileName;
+                Filter = "PNG Image|*.png",
+                Title = "Load template background image",
+                DefaultExt = "png"
+            })
+            {
+                ofd.ShowDialog();
+
+                if (!string.IsNullOrWhiteSpace(ofd.FileName))
+                {
+                    templatePathTextBox.Text = ofd.FileName;
+                }
             }
         }
     }
