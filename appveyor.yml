@@ -10,7 +10,9 @@ before_build:
 build:
   verbosity: minimal
 after_build:
-- ps: 7z a PerkBackgroundTool.zip PerkBackgroundTool\bin\Release\*.*
+- ps: 7z a PerkBackgroundTool.zip PerkBackgroundTool\bin\Release\*.* -x!*.pdb -x!*.xml
 artifacts:
 - path: PerkBackgroundTool.zip
   name: PerkBackgroundTool binary
+- path: PerkBackgroundTool\bin\Release\PerkBackgroundTool.pdb
+  name: Debug symbol
