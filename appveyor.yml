@@ -1,0 +1,16 @@
+version: 1.0.{build}
+branches:
+  only:
+  - master
+image: Visual Studio 2019
+configuration: Release
+clone_depth: 1
+before_build:
+- cmd: nuget restore
+build:
+  verbosity: minimal
+after_build:
+- ps: 7z a PerkBackgroundTool.zip PerkBackgroundTool\bin\Release\*.*
+artifacts:
+- path: PerkBackgroundTool.zip
+  name: PerkBackgroundTool binary

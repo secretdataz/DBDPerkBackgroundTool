@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3CF04AC5-2CC6-4991-A2AA-EC7EBF5922CC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>UltraRareMaker</RootNamespace>
-    <AssemblyName>UltraRareMaker</AssemblyName>
+    <RootNamespace>PerkBackgroundTool</RootNamespace>
+    <AssemblyName>PerkBackgroundTool</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

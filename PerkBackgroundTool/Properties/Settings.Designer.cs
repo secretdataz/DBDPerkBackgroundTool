@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace UltraRareMaker.Properties
+namespace PerkBackgroundTool.Properties
 {
 
 

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
 
-namespace UltraRareMaker
+namespace PerkBackgroundTool
 {
     // Yes, this is a "god" class. Refactor later if a huge improvement is needed.
     public partial class MainForm : Form
