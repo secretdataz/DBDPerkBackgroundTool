@@ -243,7 +243,15 @@
     "DisplayName": "STRANGER THINGS",
     "Number": 16,
     "Perks": [
-      "WIP"
+      "babysitter",
+      "betterTogether",
+      "camaraderie",
+      "cruelConfinement",
+      "fixated",
+      "innerStrength",
+      "mindBreaker",
+      "secondWind",
+      "surge"
     ]
   }
 ]

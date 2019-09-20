@@ -506,5 +506,41 @@
   {
     "PerkName": "thrillingTremors",
     "DisplayName": "Thrilling Tremors"
+  },
+  {
+    "PerkName": "babySitter",
+    "DisplayName": "Babysitter"
+  },
+  {
+    "PerkName": "betterTogether",
+    "DisplayName": "Better Together"
+  },
+  {
+    "PerkName": "camaraderie",
+    "DisplayName": "Camaraderie"
+  },
+  {
+    "PerkName": "cruelConfinement",
+    "DisplayName": "Cruel Limits"
+  },
+  {
+    "PerkName": "fixated",
+    "DisplayName": "Fixated"
+  },
+  {
+    "PerkName": "innerStrength",
+    "DisplayName": "Inner Strength"
+  },
+  {
+    "PerkName": "mindBreaker",
+    "DisplayName": "Mind Breaker"
+  },
+  {
+    "PerkName": "secondWind",
+    "DisplayName": "Second Wind"
+  },
+  {
+    "PerkName": "surge",
+    "DisplayName": "Surge"
   }
 ]
