@@ -79,6 +79,27 @@ namespace PerkBackgroundTool
             }
         }
 
+        private bool InitializeDbdPath(string DbdPath)
+        {
+            var paths = LocateDbd(DbdPath);
+            if (paths != null)
+            {
+                _DbdPath = paths.Item1;
+                DbdPathTextBox.Text = _DbdPath;
+                _PerksPath = paths.Item2;
+
+                ApplyButton.Enabled = true;
+                PreviewBtn.Enabled = true;
+                Properties.Settings.Default.LastDbdPath = DbdPath;
+                Properties.Settings.Default.Save();
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         private void BrowseBtn_Click(object sender, EventArgs e)
         {
             using (var fbd = new FolderBrowserDialog())
@@ -88,15 +109,7 @@ namespace PerkBackgroundTool
 
                 if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
                 {
-                    var paths = LocateDbd(fbd.SelectedPath);
-                    if (paths != null)
-                    {
-                        _DbdPath = paths.Item1;
-                        DbdPathTextBox.Text = _DbdPath;
-                        _PerksPath = paths.Item2;
-
-                        ApplyButton.Enabled = true;
-                    } else
+                    if (!InitializeDbdPath(fbd.SelectedPath))
                     {
                         MessageBox.Show("Not DBD directory", "Error");
                     }
@@ -151,7 +164,7 @@ namespace PerkBackgroundTool
                 int processed = 0;
                 foreach (var perk in selectedPerks)
                 {
-                    ImageUtil.OverlayPerk(templatePathTextBox.Text, Path.Combine(_PerksPath, perk.DlcName, $"iconPerks_{perk.PerkName}.png"));
+                    ImageUtil.OverlayPerk(templatePathTextBox.Text, perk.GetPath(_PerksPath));
                     processed++;
                     Action progressBarUpdate = () => {
                         ProgressLabel.Text = $"Progress {processed}/{count}";
@@ -253,6 +266,29 @@ namespace PerkBackgroundTool
                     templatePathTextBox.Text = ofd.FileName;
                 }
             }
+        }
+
+        private void PreviewBtn_Click(object sender, EventArgs e)
+        {
+            new PreviewForm(_PerksPath, templatePathTextBox.Text, _Perks).Show();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            _ = InitializeDbdPath(Properties.Settings.Default.LastDbdPath);
+            string commit = "Unknown commit";
+            string version = "Unknown version";
+            if (File.Exists(".commit"))
+            {
+                commit = File.ReadAllText(".commit");
+            }
+
+            if (File.Exists(".version"))
+            {
+                commit = File.ReadAllText(".version");
+            }
+            Text += $" - Version: {version}";
+            VersionLabel.Text = $"Version: {version}     Commit: {commit}";
         }
     }
 }

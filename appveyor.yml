@@ -1,4 +1,4 @@
-version: 1.0.{build}
+version: 1.1.{build}
 branches:
   only:
   - master
@@ -10,7 +10,12 @@ before_build:
 build:
   verbosity: minimal
 after_build:
-- cmd: 7z a PerkBackgroundTool.zip PerkBackgroundTool\bin\Release\*.* -xr!*.pdb -xr!*.xml
+- cmd: >-
+  echo %APPVEYOR_BUILD_VERSION% > "PerkBackgroundTool\bin\Release\.version"
+    
+  echo %APPVEYOR_REPO_COMMIT% > "PerkBackgroundTool\bin\Release\.commit"
+  
+  7z a PerkBackgroundTool.zip PerkBackgroundTool\bin\Release\*.* -xr!*.pdb -xr!*.xml
 artifacts:
 - path: PerkBackgroundTool.zip
   name: PerkBackgroundTool binary

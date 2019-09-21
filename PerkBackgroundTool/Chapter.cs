@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PerkBackgroundTool
+﻿namespace PerkBackgroundTool
 {
-    class Chapter
+    public class Chapter
     {
         public string Path { get; set; }
         public string DisplayName { get; set; }

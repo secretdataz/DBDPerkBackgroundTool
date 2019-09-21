@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
 
 namespace PerkBackgroundTool
 {
-    class Perk
+    public class Perk
     {
         public bool Selected { get; set; }
         public string PerkName { get; set; }
@@ -14,5 +10,10 @@ namespace PerkBackgroundTool
         public string DlcName { get; set; }
         public string DlcDisplayName { get; set; }
         public int DlcNumber { get; set; }
+
+        public string GetPath(string BasePath = "./")
+        {
+            return Path.Combine(BasePath, DlcName, $"iconPerks_{PerkName}.png");
+        }
     }
 }
