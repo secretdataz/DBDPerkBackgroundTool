@@ -11,11 +11,11 @@ build:
   verbosity: minimal
 after_build:
 - cmd: >-
-  echo %APPVEYOR_BUILD_VERSION% > "PerkBackgroundTool\bin\Release\.version"
+    echo %APPVEYOR_BUILD_VERSION% > "PerkBackgroundTool\bin\Release\.version"
     
-  echo %APPVEYOR_REPO_COMMIT% > "PerkBackgroundTool\bin\Release\.commit"
+    echo %APPVEYOR_REPO_COMMIT% > "PerkBackgroundTool\bin\Release\.commit"
   
-  7z a PerkBackgroundTool.zip PerkBackgroundTool\bin\Release\*.* -xr!*.pdb -xr!*.xml
+    7z a PerkBackgroundTool.zip PerkBackgroundTool\bin\Release\*.* -xr!*.pdb -xr!*.xml
 artifacts:
 - path: PerkBackgroundTool.zip
   name: PerkBackgroundTool binary
