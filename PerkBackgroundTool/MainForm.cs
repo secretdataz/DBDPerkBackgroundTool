@@ -285,7 +285,7 @@ namespace PerkBackgroundTool
 
             if (File.Exists(".version"))
             {
-                commit = File.ReadAllText(".version");
+                version = File.ReadAllText(".version");
             }
             Text += $" - Version: {version}";
             VersionLabel.Text = $"Version: {version}     Commit: {commit}";
